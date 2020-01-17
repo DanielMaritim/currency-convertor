@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en" >
+<head>
+    <title>currencyconvertor</title>
+    <style>
+        #box{
+            width: 500px;
+            height:250px;
+            margin:100px auto;
+            border:4px solid #c7b7b7;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Times New Roman'
+
+        }
+        table{
+            margin:0px auto;
+        }
+    </style>
+
+    <script>
+        
+
+    </script>
+
+
+</head>
+<body background = "https://images.pexels.com/photos/128867/coins-currency-investment-insurance-128867.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+    <div id ="box">
+        <h2>Currency Convertor</h2>
+        <table>
+            <tr>
+                <td><input id = "fromAmount" type="text" size="14"/></td>
+                <td>
+                    <select id ="from" onchange="convertCurrency();">
+                        <option value ="USD" selected>United States Dollar(USD)</option>
+                        <option value =""></option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>
+                <input id="toAmount" type="text" size="14" />
+            </td>
+            <td>
+                <select id="to"onchange="convertCurrency();">
+                    <option value="KES" selected>Kenya Shillings(KES)</option>
+                    <option value=""></option>
+                </select>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>
